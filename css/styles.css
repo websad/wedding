@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'BiblonCY';
+    src: url('../f/biblon/bibloncy.eot');
+    src: url('../f/biblon/bibloncy.eot?#iefix') format('embedded-opentype'),
+         url('../f/biblon/bibloncy.woff') format('woff'),
+         url('../f/biblon/bibloncy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'annabelle';
+    src: url('../f/annabelle/annabelle.eot');
+    src: url('../f/annabelle/annabelle.eot?#iefix') format('embedded-opentype'),
+         url('../f/annabelle/annabelle.woff') format('woff'),
+         url('../f/annabelle/annabelle.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    outline: none;
+    font-family: 'annabelle', serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+.float_left {
+    float: left;
+}
+.float_right {
+    float: right;
+}
+
+.px18 {
+    font-size: 18px;
+}
+
+.px24 {
+    font-size: 24px;
+}
+
+.blue {
+    color: #4d8380;
+}
+
+.wrapper {
+    width: 969px;
+    margin: 0 auto;
+}
+
+/*border-gradients*/
+.important_things,
+footer{
+-webkit-box-shadow: inset -4px -8px 13px 0px rgba(50, 50, 50, 0.32);
+-moz-box-shadow:    inset -4px -8px 13px 0px rgba(50, 50, 50, 0.32);
+box-shadow:         inset -4px -8px 13px 0px rgba(50, 50, 50, 0.32);
+}
+
+/*header*/
+header {
+    height: 500px;  
+    background-color: #fbf3de;
+}
+
+
+/*Top signs*/
+.sign1 {
+    width: 250px;
+    padding: 2px 0 0 90px;
+    background:  url("../i/rings.png") 10% 50% no-repeat;
+    float: left;
+}
+
+.sign2 {
+    padding-top: 12px;
+    width: 400px;
+    float: right;
+}
+
+
+/*Logo and names*/
+.main_logo {
+    box-sizing: border-box;
+    height: 450px;
+}
+
+.main_logo,
+.signs{
+background: -moz-linear-gradient(left,  #fbf3de 0%, #fefcf5 27%, #fefcf5 73%, #fbf3de 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fbf3de), color-stop(27%,#fefcf5), color-stop(73%,#fefcf5), color-stop(100%,#fbf3de));
+background: -webkit-linear-gradient(left,  #fbf3de 0%,#fefcf5 27%,#fefcf5 73%,#fbf3de 100%);
+background: -o-linear-gradient(left,  #fbf3de 0%,#fefcf5 27%,#fefcf5 73%,#fbf3de 100%);
+background: -ms-linear-gradient(left,  #fbf3de 0%,#fefcf5 27%,#fefcf5 73%,#fbf3de 100%);
+background: linear-gradient(to right,  #fbf3de 0%,#fefcf5 27%,#fefcf5 73%,#fbf3de 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbf3de', endColorstr='#fbf3de',GradientType=1 );
+    position: relative;
+}
+
+.name {
+    padding: 100px 0;
+    width: 260px;
+    text-align: right;
+}
+
+.name:nth-child(2) {
+    text-align: left;
+    width: 290px;
+}
+
+.logo {
+    height: 450px;
+    background: 
+         url(../i/love.png) 49% 47% no-repeat,
+        url(../i/flower-wrap.png) 50% 50% no-repeat;
+}
+
+/*5 important things*/
+.important_things {
+    height: 297px;
+    padding-top: 20px;
+}
+.important_things p{
+    text-align: center;
+}
+.thing {
+    width: 145px;
+    height: 235px;
+    padding: 20px 5px 5px;
+    float: left;
+}
+
+.set {
+    width: 780px;
+    margin: 0 auto;
+}
+.thing img {
+    border-radius: 500px;
+    width: 139px;
+    height: 139px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.77);
+-moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.77);
+box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.77);
+}
+
+.description {
+    font-size: 14px;
+    font-family: 'BiblonCY', serif;
+}
+
+/*schedule*/
+
+.schedule {
+    height: 745px;
+    background-color: #fffefa;
+        background: url('../i/flowers-bg.png') 100% 100% no-repeat;
+}
+
+.schedule_description {
+    width: 315px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.schedule_head {
+    width: 200px;
+    font-size: 36px;
+    margin: 20px auto;
+}
+
+
+/*footer*/
+footer {
+    height: 65px;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.foot {
+    box-sizing: border-box;
+    padding: 0px 120px;
+    background: url('../i/hoah.png') 5% 0 no-repeat;
+}
+
+.guest_form {
+    box-sizing: border-box;
+    z-index: 50;
+    height: 215px;
+    width: 347px;
+    background-color: rgba(201, 247, 235, 0.5);
+    padding-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+
+.fullname,
+.pair,
+.pass{
+    box-sizing: border-box;
+    width: 300px;
+    height: 27px;
+    margin: 0 15px 17px;
+    border-radius: 6px;
+    padding: 5px 10px 5px;
+}
+
+.submit {
+    background-color: #32974b;
+    box-sizing: border-box;
+    width: 300px;
+    height: 43px;
+    margin: 0 15px;
+    border-radius: 6px;
+    padding: 5px 10px 5px;
+}
